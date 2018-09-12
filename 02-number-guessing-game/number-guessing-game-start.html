@@ -51,6 +51,11 @@
       var guessField = document.querySelector('.guessField');
 
       var guessCount = 1;
+
+      /* Uses focus method to automatically put the text cursor 
+      into the <input> text field as soon as the page loads */ 
+      guessField.focus();
+      
       var resetButton;
 
       function checkGuess() {
